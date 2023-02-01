@@ -1,62 +1,85 @@
-# Star Jeans Competitor Analysis
+# Star Jeans - Product Market Fit 
 
-## The aim of this project is to support Star Jeans, a new company of clothing segment for man audience, in the coice of the product market fit to face their competitors.
+## ETL design to help define a new company's product market fit
 
-#### This project was made by Daniel Toda.
+<img src="/img/chuttersnap-gts_Eh4g1lk-unsplash.jpg"
+  alt="Alt text"
+  title="cover image"
+  style="display: inline-block; margin: 0 auto; max-width: 600px;height:600px">
+
+*This project was proposed in the study trail of the Meigarom Lopes Data Science Community*
 
 # 1. Business Problem.
 
-# 2. Business Assumptions.
+Two Brazilians, partners in some ventures, decided to enter the US fashion market, building their own e-commerce called Star Jeans.
+
+Considering the market risks, they planned to start their operation with just one product, in this case jeans, and scale the business as the company grows, which makes it possible to work with a low initial cost.
+
+Therefore, they hired a data science consultancy to answer the following questions:
+
+- What is the best selling price for the pants?
+- How many types of pants and their colors for the initial product?
+- What are the raw materials needed to make the pants?
+- The main competitors of the company Start Jeans are the American H&M and Macys.
+
+# 2. Business Assumptions
+- At a section of e-commerce, the first showcase that appears is the best ranked and the one with the best selling products
+- More frequent colors and types of pants have greater acceptance by the public and greater appeal for price
 
 # 3. Solution Strategy
 
-My strategy to solve this challenge was:
+I sought a complete but simplified solution to the problem, which is valid and generates value for the business.
+The solution strategy will be based on a market research of H&M (initially), given that it is the main competitor at this segment, and the data extracted from its e-commerce will help to adress this problem. 
 
-**Step 01. Data Description:**
+## 3.1. Delivable
 
-**Step 02. Feature Engineering:**
+The delivery of the project will be a dashboard that will contain:
 
-**Step 03. Data Filtering:**
+1. Graphs of the main attributes (price, color, type and raw material)
 
-**Step 04. Exploratory Data Analysis:**
+2. Aswers to business questions
 
-**Step 05. Data Preparation:**
+- How many types of pants and their colors for the initial product?<br>
+  A: The two types of pants and colors + frequent in the data set will be recommended
 
-**Step 06. Feature Selection:**
+- What is the best selling price for the pants? <br>
+  A: 15% less than the median price of pants types and colors + frequent
 
-**Step 07. Machine Learning Modelling:**
+- What are the raw materials needed to make the pants?<br>
+  A: Raw materials of these most frequent pants
 
-**Step 08. Hyperparameter Fine Tunning:**
+## 3.2. Process
 
-**Step 09. Convert Model Performance to Business Values:**
+- Definition of attributes to be extracted from the H&M website
+- Definition of storage infrastructure (SQLITE3)
+- ETL Design (Extraction, Transformation and Load Scripts)
+- Scheduling planning of scripts (dependencies between scripts)
+- Make the visualizations
+- Delivery of the final product
 
-**Step 10. Deploy Modelo to Production:**
+## 3.3. Resources
 
-# 4. Top 3 Data Insights
+**Data Source to scrap:**<br>
+  
+  H&M Website: https://www2.hm.com/en_us/men/products/jeans.html<br>
+  The data used to answer the questions were drawn from the first window of the H&M men's jeans session, drawn over a month.
 
-**Hypothesis 01:**
+**Tools:**<br>
 
-**True/False.**
+  - Python 3.10.9
+  - Webscrapping Libraries (Beautiful Soup)
+  - Jupyter Notebook (Analysis and Prototyping)
+  - Crontjob
+  - PowerBI
+  
+  
+# 4. Business Results
 
-**Hypothesis 02:**
+# 5. Conclusions
 
-**True/False.**
+# 6. Lessons Learned
 
-**Hypothesis 03:**
-
-**True/False.**
-
-# 5. Machine Learning Model Applied
-
-# 6. Machine Learning Modelo Performance
-
-# 7. Business Results
-
-# 8. Conclusions
-
-# 9. Lessons Learned
-
-# 10. Next Steps to Improve
+# 7. Next Steps to Improve
 
 # LICENSE
 
