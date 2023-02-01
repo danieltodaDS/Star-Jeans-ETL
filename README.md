@@ -2,7 +2,7 @@
 
 ## ETL design to help define a new company's product market fit
 
-<img src="/img/chuttersnap-gts_Eh4g1lk-unsplash.jpg"
+<img src="/img/jason-leung-DmD8HVOjy4c-unsplash.jpg"
   alt="Alt text"
   title="cover image"
   style="display: inline-block; margin: 0 auto; max-width: 600px;height:600px">
@@ -28,8 +28,7 @@ Therefore, they hired a data science consultancy to answer the following questio
 
 # 3. Solution Strategy
 
-I sought a complete but simplified solution to the problem, which is valid and generates value for the business.
-The solution strategy will be based on a market research of H&M (initially), given that it is the main competitor at this segment, and the data extracted from its e-commerce will help to adress this problem. 
+The solution strategy is based on a market research of H&M (initially), given that it is the main competitor at this segment. Through a ETL process, the data will be collected from H&M e-commerce and will ne used to adress the business problem. 
 
 ## 3.1. Delivable
 
@@ -80,7 +79,3 @@ The delivery of the project will be a dashboard that will contain:
 # 6. Lessons Learned
 
 # 7. Next Steps to Improve
-
-# LICENSE
-
-# All Rights Reserved - Comunidade DS 2023
