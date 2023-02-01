@@ -32,7 +32,7 @@ The solution strategy is based on a market research of H&M (initially), given th
 
 ## 3.1. Delivable
 
-The delivery of the project will be a dashboard that will contain:
+The delivery of the project will be a **dashboard** that will contain:
 
 1. Graphs of the main attributes (price, color, type and raw material)
 
@@ -52,7 +52,6 @@ The delivery of the project will be a dashboard that will contain:
 - Definition of attributes to be extracted from the H&M website
 - Definition of storage infrastructure (SQLITE3)
 - ETL Design (Extraction, Transformation and Load Scripts)
-- Scheduling planning of scripts (dependencies between scripts)
 - Make the visualizations
 - Delivery of the final product
 
@@ -61,21 +60,24 @@ The delivery of the project will be a dashboard that will contain:
 **Data Source to scrap:**<br>
   
   H&M Website: https://www2.hm.com/en_us/men/products/jeans.html<br>
-  The data used to answer the questions were drawn from the first window of the H&M men's jeans session, drawn over a month.
 
 **Tools:**<br>
 
   - Python 3.10.9
   - Webscrapping Libraries (Beautiful Soup)
   - Jupyter Notebook (Analysis and Prototyping)
-  - Crontjob
   - PowerBI
   
-  
-# 4. Business Results
 
 # 5. Conclusions
 
-# 6. Lessons Learned
+## 5.1. Dashboard with results
 
-# 7. Next Steps to Improve
+# 6. Next Steps to Improve
+
+- Scheduling planning scripts 
+- Collect all showcase of male jeans
+- Improve the collection of compositions to a more consistent solution
+- Design a job to create database and schemas
+- Optimize the code with proper functions
+- Study deeper e-commerce business to improve business assumptions
